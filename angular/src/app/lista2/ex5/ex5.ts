@@ -4,6 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-ex5',
   standalone: false,
   templateUrl: './ex5.html',
-  styleUrl: './ex5.css',
+  styleUrl: './ex5.css'
 })
-export class Ex5 {}
+export class Ex5 {
+  curtidas = 0;
+
+  curtir() {
+    this.curtidas = this.curtidas + 1;
+  }
+}
