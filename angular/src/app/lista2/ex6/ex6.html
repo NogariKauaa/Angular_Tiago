@@ -1,1 +1,6 @@
-<p>ex6 works!</p>
+<h2>Exercício 6 - Contador completo</h2>
+
+<p>Quantidade: {{ quantidade }}</p>
+
+<button (click)="diminuir()" [disabled]="quantidade === 0">-</button>
+<button (click)="aumentar()">+</button>
