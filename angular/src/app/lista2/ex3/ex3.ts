@@ -4,6 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-ex3',
   standalone: false,
   templateUrl: './ex3.html',
-  styleUrl: './ex3.css',
+  styleUrl: './ex3.css'
 })
-export class Ex3 {}
+export class Ex3 {
+  imagemProduto = 'https://picsum.photos/300/200';
+  descricaoImagem = 'Foto do produto';
+}
