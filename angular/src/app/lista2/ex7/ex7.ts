@@ -4,6 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-ex7',
   standalone: false,
   templateUrl: './ex7.html',
-  styleUrl: './ex7.css',
+  styleUrl: './ex7.css'
 })
-export class Ex7 {}
+export class Ex7 {
+  nome = '';
+}
