@@ -4,6 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-ex4',
   standalone: false,
   templateUrl: './ex4.html',
-  styleUrl: './ex4.css',
+  styleUrl: './ex4.css'
 })
-export class Ex4 {}
+export class Ex4 {
+  formularioValido = false;
+}
